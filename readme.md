@@ -5,6 +5,7 @@
 ## Contents
 
 - [Learning](#learning)
+- [Chrome Internal Pages](#chrome-internal-pages)
 - [DevTools tooling and ecosystem](#devtools-tooling-and-ecosystem)
 - [Chrome DevTools Protocol](#chrome-devtools-protocol)
 - [Using DevTools frontend with other platforms](#using-devtools-frontend-with-other-platforms)
@@ -20,6 +21,79 @@
 - [Can I DevTools?](https://www.canidev.tools/) - Various workflows, documented. Also a weekly tips & tricks [newsletter](https://canidevtools.substack.com/).
 - [Web cheatcodes](https://codepo8.github.io/web-cheatcodes/) - Browser developer tools for non-developers.
 - [Dear Console](https://codepo8.github.io/dearconsole) - A collection of snippets to use in the browser console.
+
+---
+
+## Chrome Internal Pages
+
+Chrome's internal pages (accessible via `chrome://` URLs) provide developers and power users with access to browser internals, diagnostics, and debugging tools. Access the complete list by typing `chrome://chrome-urls` or `chrome://about` in the address bar.
+
+### Core Diagnostics & Settings
+- [chrome://chrome-urls](chrome://chrome-urls) - Master index of all internal pages.
+- [chrome://version](chrome://version) - Build info, OS details, command-line switches.
+- [chrome://flags](chrome://flags) - Experimental feature toggles.
+- [chrome://settings](chrome://settings) - Main settings hub.
+- [chrome://settings/performance](chrome://settings/performance) - Memory Saver modes, performance alerts.
+- [chrome://gpu](chrome://gpu) - GPU capabilities and status.
+- [chrome://components](chrome://components) - Installed system components.
+- [chrome://crashes](chrome://crashes) - Local crash history.
+- [chrome://system](chrome://system) - OS/browser system snapshot.
+- [chrome://discards](chrome://discards) - View and manage discarded tabs to free memory.
+
+### Network & Performance
+- [chrome://net-export](chrome://net-export) - NetLog capture for network debugging.
+- [chrome://webrtc-internals](chrome://webrtc-internals) - WebRTC session diagnostics.
+- [chrome://webrtc-logs](chrome://webrtc-logs) - WebRTC log access.
+- [chrome://media-internals](chrome://media-internals) - Media pipeline details.
+- [chrome://tracing](chrome://tracing) - Low-level performance tracing.
+- [chrome://histograms](chrome://histograms) - Internal metrics histograms.
+- [chrome://metrics-internals](chrome://metrics-internals) - UMA/UKM metrics.
+
+### Storage & Data
+- [chrome://indexeddb-internals](chrome://indexeddb-internals) - IndexedDB enumeration.
+- [chrome://quota-internals](chrome://quota-internals) - Storage quotas per origin.
+- [chrome://site-engagement](chrome://site-engagement) - Site engagement scoring (0-100).
+- [chrome://media-engagement](chrome://media-engagement) - Media engagement metrics.
+
+### Privacy & Security
+- [chrome://password-manager](chrome://password-manager) - Password Manager UI.
+- [chrome://password-manager-internals](chrome://password-manager-internals) - Credential diagnostics.
+- [chrome://privacy-sandbox-internals](chrome://privacy-sandbox-internals) - Privacy Sandbox API diagnostics.
+- [chrome://safe-browsing](chrome://safe-browsing) - Safe Browsing state.
+- [chrome://policy](chrome://policy) - Active enterprise policies.
+- [chrome://management](chrome://management) - Browser management status.
+- [chrome://sync-internals](chrome://sync-internals) - Sync transport status.
+- [chrome://signin-internals](chrome://signin-internals) - Account/token diagnostics.
+
+### Extensions & Apps
+- [chrome://extensions](chrome://extensions) - Extension manager.
+- [chrome://extensions-internals](chrome://extensions-internals) - Extension service diagnostics.
+- [chrome://apps](chrome://apps) - Chrome Apps launcher.
+- [chrome://serviceworker-internals](chrome://serviceworker-internals) - Service worker registrations.
+- [chrome://web-app-internals](chrome://web-app-internals) - PWA diagnostics.
+
+### Developer Tools
+- [chrome://inspect](chrome://inspect) - Inspect and debug web pages, service workers, and devices.
+- [chrome://accessibility](chrome://accessibility) - Accessibility information for each tab.
+- [chrome://omnibox](chrome://omnibox) - Autocomplete prediction debug UI.
+- [chrome://process-internals](chrome://process-internals) - Process model debugging.
+- [chrome://predictors](chrome://predictors) - Resource prediction hints.
+- [chrome://download-internals](chrome://download-internals) - Download service tasks.
+- [chrome://gcm-internals](chrome://gcm-internals) - Firebase Cloud Messaging diagnostics.
+- [chrome://translate-internals](chrome://translate-internals) - Translate language packs.
+
+### Hardware & Connectivity
+- [chrome://bluetooth-internals](chrome://bluetooth-internals) - Bluetooth device scanning.
+- [chrome://usb-internals](chrome://usb-internals) - USB discovery and permissions.
+- [chrome://device-log](chrome://device-log) - Device event logs.
+
+### Content & Interface
+- [chrome://history](chrome://history) - History viewer.
+- [chrome://downloads](chrome://downloads) - Downloads manager.
+- [chrome://bookmarks](chrome://bookmarks) - Bookmarks manager.
+- [chrome://new-tab-page](chrome://new-tab-page) - New Tab Page.
+- [chrome://whats-new](chrome://whats-new) - Recently shipped features.
+- [chrome://dino](chrome://dino) - Offline T-Rex game.
 
 ---
 
